@@ -7,8 +7,9 @@ import 'app/routes/app_pages.dart';
 void main() {
   runApp(
     GetMaterialApp(
-      title: "Application",
-      initialRoute: AppPages.INITIAL,
+      debugShowCheckedModeBanner: false,
+      title: "Al-Quran App",
+      initialRoute: Routes.INTRODUCTION,
       getPages: AppPages.routes,
     ),
   );
